@@ -1,0 +1,46 @@
+x = 1 + 2 * 3;
+y = (x + 4) * 2;
+z = y / 3 + x * 2;
+w = (z - y) * (x + 10);
+
+a = 5 * 5 + 10;
+b = a - x + y;
+c = (a + b + z) / 2;
+d = c * c - a / 3;
+
+p1 = x + y + z + w;
+p2 = a + b + c + d;
+p3 = p1 + p2;
+
+t1 = 7 * (p1 - 3);
+t2 = (t1 + p2) / 4;
+t3 = t2 * (x + 1);
+
+r1 = t3 - p3;
+r2 = r1 + a * b - c / 2;
+r3 = (r2 + r1 + t1) / 3;
+
+final1 = r1 + r2;
+final2 = r3 - final1;
+final3 = final1 + final2 + p3;
+
+print(x);
+print(y);
+print(z);
+print(w);
+print(a);
+print(b);
+print(c);
+print(d);
+print(p1);
+print(p2);
+print(p3);
+print(t1);
+print(t2);
+print(t3);
+print(r1);
+print(r2);
+print(r3);
+print(final1);
+print(final2);
+print(final3);
